@@ -1,0 +1,115 @@
+#root{
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    padding: 0;
+    background-color: #735F32;
+}
+
+.form-nilai{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-nilai form {
+    background-color: #282A3A;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #efefef;
+    letter-spacing: 3px;
+}
+
+form .inp-grup label{
+    font-family: 'Courier New', Courier, monospace;
+    color: #828282;
+    font-weight: bold;
+    padding: 10px 0 !important;
+}
+
+form .inp-grup .inp{
+    width: 500px;
+}
+
+form .inp-grup .inp input{
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    height: 30px;
+}
+
+form .inp-submit{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form .inp-submit input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: #efefef;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #495579;
+}
+
+form .inp-submit input:hover{
+    background-color: #263159;
+}
+
+form .inp-submit input:focus{
+    background-color: #263159;
+}
+
+.form-nilai .result-score .result{
+    background-color: #FFF6BF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.form-nilai .result-score .result a {
+    cursor: pointer;
+    background-color: #495579;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #efefef;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.form-nilai .result-score .result .grade {
+    display: flex;
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-nilai .result-score .result .grade b{
+    font-size: 50px;
+    color: #252525;
+}

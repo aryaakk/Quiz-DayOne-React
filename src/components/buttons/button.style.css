@@ -1,0 +1,104 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.App-logo{
+    width: 20%;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #495579;
+    color: #efefef;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7682a6;
+}
+
+.App input {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: #252525;
+    background-color: rgba(172, 252, 252, 0.436);
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px 12px 30px rgba(172, 252, 252, 0.436);
+    border: none;
+}
+
+.buttonCounter{
+    width: 100%;
+    text-align: center;
+}
+
+.buttonCounter button {
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #495579;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.buttonCounter button:hover{
+    background-color: #7682a6;
+}
+
+@keyframes button-logo-spin {
+    from {
+        transform: translateX(-10px);
+    }
+
+    to {
+        transform: translateX(10px);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 2s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App hr{
+    border: 2px solid #252525;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

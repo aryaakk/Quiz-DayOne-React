@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5B8F4;
+    position: fixed;
+    width: 100vw;
+    gap: 20px;
+}
+
+.box{
+    background: #C147E9;
+    padding: 30px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.box .header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.box form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box form label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
